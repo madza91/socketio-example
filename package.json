@@ -1,0 +1,30 @@
+{
+  "name": "socketio-example",
+  "version": "1.0.0",
+  "description": "Example for using SocketIO for secure and non-secure connection (http/https)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madza91/socketio-example.git"
+  },
+  "keywords": [
+    "socketio",
+    "server",
+    "client",
+    "ssl"
+  ],
+  "author": "Nemanja Madzovski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madza91/socketio-example/issues"
+  },
+  "homepage": "https://github.com/madza91/socketio-example#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
