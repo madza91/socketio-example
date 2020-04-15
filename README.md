@@ -9,7 +9,7 @@ This is simple example with Socket Server (Node) and Client (vanilla js) for bot
 - Generate SSL certs if you don't have it already
 - Change server configuration values in `server.js` (ports and certification files for ssl)
 - Enable ports on your (Ubuntu) server `sudo ufw allow 8080`
-- `npm start` or `node start.js`
+- `npm start` or `node server.js`
 
 ### Client
 - Change `socketServer` in `client.js`
